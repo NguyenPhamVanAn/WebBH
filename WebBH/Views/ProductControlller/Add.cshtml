@@ -25,6 +25,7 @@
                 <select asp-for="CategoryId" asp-items="@ViewBag.CategoryList" class="form-
 control">
 
+
                     <option disabled selected>- Type -</option>
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
@@ -35,6 +36,6 @@ control">
             </div>
         </div>
     </div>
-    <button type="submit" class="btn btn-outline-info"> Save </button>
+    <button type="submit" class="btn btn-outline-info"> Save </button>   
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </form>
